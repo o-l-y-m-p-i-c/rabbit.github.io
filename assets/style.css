@@ -31,8 +31,8 @@ div:empty,h1:empty,h2:empty,h3:empty,h4:empty,h5:empty,p:empty{
     width: 1200px;
     max-width:100%;
     margin: 0 auto;
-    margin-bottom: 37px;;
-    min-height: 420px;
+    margin-bottom: 50px;
+    min-height: 380px;
     position: relative;
 }
 .congratulations__photo{
@@ -144,7 +144,7 @@ div:empty,h1:empty,h2:empty,h3:empty,h4:empty,h5:empty,p:empty{
 .congratulations__prize{
     display: flex;
     justify-content:center;
-    margin-bottom: -37px;
+    margin-bottom: -50px;
 }
 .congratulations__prize{
     position: relative;
