@@ -173,14 +173,19 @@ div:empty,h1:empty,h2:empty,h3:empty,h4:empty,h5:empty,p:empty{
     font-weight: 500;
     font-size: 28px;
     line-height: 32px;
-    white-space: nowrap;
+    display:inline-block;
 }
-.congratulations__underphoto-subtitle:before, .congratulations__underphoto-subtitle:after{
-    content: "";
-    width: 60px;
+.title-border{
+    width: 60px; 
     border-bottom: 1px solid #fff;
     display:inline-block;
-    transform: translateY(-8px);
+    transform:translateY(-50%);
+}
+.congratulations__underphoto-subtitle-wrapper{
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    column-gap: 20px;
 }
 .congratulations__underphoto-subtitle:before{
     margin-right: 24px;
