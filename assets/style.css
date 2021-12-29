@@ -176,7 +176,8 @@ div:empty,h1:empty,h2:empty,h3:empty,h4:empty,h5:empty,p:empty{
     display:inline-block;
 }
 .title-border{
-    width: 60px; 
+    width: 100%;
+    max-width:60px;
     border-bottom: 1px solid #fff;
     display:inline-block;
     transform:translateY(-50%);
